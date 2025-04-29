@@ -308,48 +308,49 @@ namespace ACEBit {
        
 
     }
+    
     //% blockId=ACEBit_MotorRun block="Motor|%index|speed(-255~255) %speed"
     //% weight=93
     //% speed.min=-255 speed.max=255
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function MotorRun(index: enMotors, speed: number): void {
         if (!initialized) {
-            initPCA9685()
+            initPCA9685();
         }
-        speed = speed * 16; // map 255 to 4096
+    
+        // 取反速度值
+        speed = -speed; // 取反速度，这样正值变为负值，负值变为正值
+    
+        speed = speed * 16; // 映射 255 到 4096
         if (speed >= 4096) {
-            speed = 4095
+            speed = 4095;
         }
         if (speed <= -4096) {
-            speed = -4095
+            speed = -4095;
         }
-
-        let a = index
-        let b = index + 1
-        
-        if (a > 10)
-        {
+    
+        let a = index;
+        let b = index + 1;
+    
+        if (a > 10) {
             if (speed >= 0) {
-                setPwm(a, 0, speed)
-                setPwm(b, 0, 0)
+                setPwm(a, 0, speed);
+                setPwm(b, 0, 0);
             } else {
-                setPwm(a, 0, 0)
-                setPwm(b, 0, -speed)
+                setPwm(a, 0, 0);
+                setPwm(b, 0, -speed);
+            }
+        } else {
+            if (speed >= 0) {
+                setPwm(b, 0, speed);
+                setPwm(a, 0, 0);
+            } else {
+                setPwm(b, 0, 0);
+                setPwm(a, 0, -speed);
             }
         }
-        else { 
-            if (speed >= 0) {
-                setPwm(b, 0, speed)
-                setPwm(a, 0, 0)
-            } else {
-                setPwm(b, 0, 0)
-                setPwm(a, 0, -speed)
-            }
-        }
-        
     }
     
-
 
     //% blockId=ACEBit_MotorRunDual block="Motor|%motor1|speed %speed1|%motor2|speed %speed2"
     //% weight=92
