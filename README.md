@@ -1,6 +1,6 @@
-# SuperBit
+# ACEBit
 
-Extension for Yahboom SuperBit V1.0
+Extension for Yahboom ACEBit V1.0
 
 ## License
 
