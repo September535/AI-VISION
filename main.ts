@@ -358,6 +358,10 @@ namespace ACEBit {
     //% speed2.min=-255 speed2.max=255
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=2
     export function MotorRunDual(motor1: enMotors, speed1: number, motor2: enMotors, speed2: number): void {
+
+        speed1 = -speed1;
+        speed2 = -speed2;
+        
         MotorRun(motor1, speed1);
         MotorRun(motor2, speed2);
     }
