@@ -1,7 +1,7 @@
 {
-    "name": "SuperBit",
+    "name": "ACEBit",
     "version": "2.0.0",
-    "description": "Extension for YahBoom SuperBit V2.0",
+    "description": "Extension for YahBoom ACEBit V2.0",
     "license": "MIT",
     "dependencies": {
         "core": "*",
@@ -10,8 +10,8 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh-cn/SuperBit-strings.json",
-        "_locales/zh-tw/SuperBit-strings.json"
+        "_locales/zh-cn/ACEBit-strings.json",
+        "_locales/zh-tw/ACEBit-strings.json"
 
     ],
     "testFiles": [
