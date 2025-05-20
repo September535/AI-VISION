@@ -1,7 +1,7 @@
 {
     "name": "ACEBit",
     "version": "2.0.0",
-    "description": "Extension for YahBoom ACEBit V2.0",
+    "description": "Extension for ACEBOTT ACEBit V2.0",
     "license": "MIT",
     "dependencies": {
         "core": "*",
