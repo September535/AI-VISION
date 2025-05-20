@@ -1,5 +1,5 @@
 ﻿/*
-Copyright (C): 2010-2019, Shenzhen Yahboom Tech
+Shenzhen ACEBOTT Tech
 modified from liusen
 load dependency
 "ACEBit": "file:../pxt-ACEbit"
