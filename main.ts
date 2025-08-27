@@ -5,8 +5,10 @@ load dependency
 "Acebott": "file:../pxt-Acebott"
 */
 
-//% color="#ECA40D" weight=20 icon="\uf085"
-namespace Acebott {
+//% color="#6e5ba4" weight=20 icon="\uf085"
+//% block="Acebott-K210"
+
+namespace Acebott_K210 {
     // Microbit K210  @start
 
     // 全局变量
@@ -37,9 +39,9 @@ namespace Acebott {
         Number = 6,
         //% block="traffic recognition: card"
         TrafficCard = 7,
-        //% block="traffic recoqnition: sin plate"
+        //% block="traffic recognition: sign plate"
         TrafficSign = 10,
-        //% block="vision line followinga"
+        //% block="vision line following"
         VisualPatrol = 8,
         //% block="machine learning"
         MachineLearning = 9
