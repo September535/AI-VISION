@@ -25,7 +25,6 @@
         "microbit"
     ],
     "preferredEditor": "tsprj",
-    "displayName": "AI VISION",
     "yotta": {
         "config": {
             "microbit-dal": {
