@@ -1,6 +1,6 @@
-# ACEBit
+# AIVISION
 
-Extension for ACEBOTT ACEBit V1.0
+Extension for AIVISION V1.0
 
 ## License
 
