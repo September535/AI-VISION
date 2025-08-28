@@ -6,9 +6,9 @@ load dependency
 */
 
 //% color="#6e5ba4" weight=20 icon="\uf085"
-//% block="Acebott-K210"
+//% block="AI VISION"
 
-namespace Acebott_K210 {
+namespace AIVISION {
     // Microbit K210  @start
 
     // 全局变量
