@@ -27,5 +27,5 @@
     "Acebott_K210.recognize_color|block": "颜色识别 %color",
     "Acebott_K210.get_code_data|block": "获取 %data",
     "Acebott_K210.clearSerialBuffer|block": "清空串口缓存",
-    "{id:category}Acebott_K210": "Acebott-K210"
+    "{id:category}Acebott_K210": "AI VISION"
 }
