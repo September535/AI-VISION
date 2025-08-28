@@ -1,5 +1,5 @@
 {
-    "name": "AIVISION",
+    "name": "ACEBit",
     "displayName": "AI VISION",
     "version": "2.0.0",
     "description": "Extension for AI VISION V2.0",
@@ -11,8 +11,8 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh-cn/AIVISION-strings.json",
-        "_locales/zh-tw/AIVISION-strings.json"
+        "_locales/zh-cn/ACEBit-strings.json",
+        "_locales/zh-tw/ACEBit-strings.json"
     ],
     "testFiles": [
         "test.ts"
@@ -25,16 +25,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj",
-    "yotta": {
-        "config": {
-            "microbit-dal": {
-                "bluetooth": {
-                    "open": 1,
-                    "whitelist": 0,
-                    "security_level": null
-                }
-            }
-        }
-    }
+    "preferredEditor": "tsprj"
 }
