@@ -78,7 +78,6 @@ namespace AIVISION {
     }
 
     //% blockId=K210_Init block="Visual module initialize"
-    //% subcategory="Executive"
     //% group="Microbit K210"
     //% weight=100
     export function K210_Init(): void {
@@ -92,7 +91,7 @@ namespace AIVISION {
     }
 
     //% blockId=K210_Menu block="Visual module retum to main menu"
-    //% subcategory="Executive"
+    
     //% group="Microbit K210"
     //% weight=100
     export function K210_Menu(): void {
@@ -111,7 +110,6 @@ namespace AIVISION {
     //% g.min=0 g.max=255
     //% b.min=0 b.max=255
     //% weight=60
-    //% subcategory="Executive"
     //% group="Microbit K210"
     export function K210_RGB_lights(r: number, g: number, b: number): void {
         if (red_value != r || green_value != g || blue_value != b) {
@@ -132,7 +130,6 @@ namespace AIVISION {
     }
 
     //% blockId=recognize_color block="color recognition %color"
-    //% subcategory="Executive"
     //% group="Microbit K210" 
     //% weight=95
     export function recognize_color(color: ColorSelection): boolean {
@@ -182,7 +179,7 @@ namespace AIVISION {
     }
 
     //% blockId=recognize_code block=" %mode"
-    //% subcategory="Executive"
+    
     //% group="Microbit K210"
     //% weight=90
     export function recognize_code(mode: RecognitionMode): boolean {
@@ -272,7 +269,6 @@ namespace AIVISION {
     }
 
     //% blockId=clearSerialBuffer block="clearSerialBuffer"
-    //% subcategory="Executive"
     //% group="Microbit K210"
     //% weight=85
     export function clearSerialBuffer(): void {
@@ -282,7 +278,6 @@ namespace AIVISION {
     }
 
     //% blockId=get_code_data block="get %data"
-    //% subcategory="Executive"
     //% group="Microbit K210"
     //% weight=85
     export function get_code_data(data: CodeData): string {
