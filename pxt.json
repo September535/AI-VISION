@@ -1,7 +1,7 @@
 {
     "name": "ACEBit",
     "version": "2.0.0",
-    "description": "Extension for ACEBOTT ACEBit V2.0",
+    "description": "Extension for AI VISION V2.0",
     "license": "MIT",
     "dependencies": {
         "core": "*",
@@ -24,5 +24,17 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "displayName": "AI VISION",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
 }
